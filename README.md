@@ -12,7 +12,7 @@ By optimizing data transmission and cluster head selection, this approach extend
 - Simulation: Energy-aware simulations with randomly distributed sensor nodes
 
 # Dependencies and Setup
-``` bash
+
 - torch and torch-geometric (for building and training GNN models)
 - numpy, pandas (for data manipulation)
 - scikit-learn (for preprocessing and evaluation metrics)
