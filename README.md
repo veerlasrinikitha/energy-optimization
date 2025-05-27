@@ -12,26 +12,10 @@ By optimizing data transmission and cluster head selection, this approach extend
 - Simulation: Energy-aware simulations with randomly distributed sensor nodes
 
 # Dependencies and Setup
-
+``` bash
 - torch and torch-geometric (for building and training GNN models)
 - numpy, pandas (for data manipulation)
 - scikit-learn (for preprocessing and evaluation metrics)
 - matplotlib, seaborn (for visualization)
 - networkx (for graph construction and analysis)
-# project structure
-
-``` bash
-/data
-  - water_levels.csv
-  - node_features.csv
-  - edge_list.csv
-/models
-  - gnn_model.py
-  - utils.py
-/notebooks
-  - water_level_estimation.ipynb
-README.md
-requirements.txt
-
-
-
+```
