@@ -18,6 +18,20 @@ By optimizing data transmission and cluster head selection, this approach extend
 - scikit-learn (for preprocessing and evaluation metrics)
 - matplotlib, seaborn (for visualization)
 - networkx (for graph construction and analysis)
+# project structure
+
+``` bash
+/data
+  - water_levels.csv
+  - node_features.csv
+  - edge_list.csv
+/models
+  - gnn_model.py
+  - utils.py
+/notebooks
+  - water_level_estimation.ipynb
+README.md
+requirements.txt
 
 
 
