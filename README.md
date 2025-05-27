@@ -11,11 +11,13 @@ By optimizing data transmission and cluster head selection, this approach extend
 - Network Algorithms: Modified Dijkstra’s Algorithm
 - Simulation: Energy-aware simulations with randomly distributed sensor nodes
 
-# Key Features
-- Energy-Efficient Multi-hop Routing – Uses a modified Dijkstra’s Algorithm to minimize energy use.
-- Adaptive Clustering with Machine Learning – Dynamically selects cluster heads based on energy levels, node density, and distance to base station.
-- Reinforcement Learning-based Optimization – Ensures efficient energy balancing for longer network lifetime.
-- Fault-Tolerant Network Design – Nodes adapt to failures and energy constraints dynamically.
-- Simulation-Based Performance Evaluation – Metrics include energy consumption, throughput, and network longevity.
-  
+# Dependencies and Setup
+``` bash
+- torch and torch-geometric (for building and training GNN models)
+- numpy, pandas (for data manipulation)
+- scikit-learn (for preprocessing and evaluation metrics)
+- matplotlib, seaborn (for visualization)
+- networkx (for graph construction and analysis)
+
+
 
